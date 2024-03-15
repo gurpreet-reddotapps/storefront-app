@@ -9,7 +9,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import type { Node } from 'react';
 import React from 'react';
-import { ActivityIndicator, LogBox, Platform, Text, View } from 'react-native';
+import { ActivityIndicator, LogBox, Platform, Text, View, StatusBar } from 'react-native';
 import 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import tailwind from 'tailwind';
@@ -33,6 +33,7 @@ const App: () => Node = () => {
 
     return (
         <SafeAreaProvider>
+            <StatusBar barStyle={'dark-content'} />
             <NavigationContainer
                 linking={linking}
                 fallback={

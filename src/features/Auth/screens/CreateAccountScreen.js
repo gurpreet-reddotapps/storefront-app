@@ -38,10 +38,15 @@ const CreateAccountScreen = ({ navigation, route }) => {
     const sendVerificationCode = () => {
         setIsLoading(true);
 
-        storefront.customers.requestCreationCode(phone, 'sms').then((response) => {
-            setIsAwaitingVerification(true);
-            setIsLoading(false);
-        });
+        storefront.customers
+            .requestCreationCode(phone, 'sms')
+            .then((response) => {
+                setIsAwaitingVerification(true);
+                setIsLoading(false);
+            })
+            .catch((err) => {
+                console.error(err);
+            });
     };
 
     const verifyCode = () => {
