@@ -477,10 +477,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = StorefrontApp/StorefrontApp.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W4M54N7H85;
+				DEVELOPMENT_TEAM = HDJ478L7P9;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = StorefrontApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BigfootSG OPS";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,7 +493,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.storefront.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigfootSG.ops;
 				PRODUCT_NAME = StorefrontApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "StorefrontApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -509,9 +510,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = StorefrontApp/StorefrontApp.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W4M54N7H85;
+				DEVELOPMENT_TEAM = HDJ478L7P9;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = StorefrontApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BigfootSG OPS";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -523,7 +525,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.storefront.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigfootSG.ops;
 				PRODUCT_NAME = StorefrontApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "StorefrontApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
