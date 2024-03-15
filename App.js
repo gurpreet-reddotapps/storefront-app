@@ -33,7 +33,7 @@ const App: () => Node = () => {
 
     return (
         <SafeAreaProvider>
-            <StatusBar barStyle={'dark-content'} />
+            <StatusBar barStyle={'dark-content'} backgroundColor={tailwind('white')} />
             <NavigationContainer
                 linking={linking}
                 fallback={

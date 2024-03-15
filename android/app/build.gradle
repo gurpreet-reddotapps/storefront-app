@@ -104,6 +104,7 @@ android {
         versionName project.env.get("ANDROID_VERSION_NAME") ?: "1.0.0"
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
         resValue "string", "app_name", project.env.get("APP_NAME") ?: "StorefrontApp"
+        resValue "string", "build_config_package", "com.storefrontapp"
     }
     configurations.all {
         resolutionStrategy {
