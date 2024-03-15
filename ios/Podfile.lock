@@ -314,16 +314,16 @@ PODS:
     - React-Core
   - react-native-geolocation-service (5.3.1):
     - React
-  - react-native-get-random-values (1.10.0):
+  - react-native-get-random-values (1.11.0):
     - React-Core
-  - react-native-image-picker (7.1.0):
+  - react-native-image-picker (7.1.1):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
   - react-native-image-resizer (1.4.5):
     - React-Core
   - react-native-location (2.5.0):
     - React
-  - react-native-maps (1.10.2):
+  - react-native-maps (1.11.3):
     - React-Core
   - react-native-mmkv-storage (0.9.1):
     - MMKV (= 1.2.13)
@@ -440,9 +440,9 @@ PODS:
     - React-jsi (= 0.72.4)
     - React-logger (= 0.72.4)
     - React-perflogger (= 0.72.4)
-  - RNBootSplash (5.4.0):
+  - RNBootSplash (5.4.1):
     - React-Core
-  - RNCAsyncStorage (1.21.0):
+  - RNCAsyncStorage (1.22.3):
     - React-Core
   - RNCMaskedView (0.1.11):
     - React
@@ -452,7 +452,7 @@ PODS:
     - React-Core
   - RNDateTimePicker (7.6.2):
     - React-Core
-  - RNDeviceInfo (10.12.0):
+  - RNDeviceInfo (10.13.1):
     - React-Core
   - RNFastImage (8.6.3):
     - React-Core
@@ -469,9 +469,9 @@ PODS:
     - React
   - RNLocalize (3.0.6):
     - React-Core
-  - RNPermissions (4.1.1):
+  - RNPermissions (4.1.4):
     - React-Core
-  - RNReanimated (3.7.0):
+  - RNReanimated (3.8.0):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
@@ -791,11 +791,11 @@ SPEC CHECKSUMS:
   react-native-camera: 3eae183c1d111103963f3dd913b65d01aef8110f
   react-native-config: 86038147314e2e6d10ea9972022aa171e6b1d4d8
   react-native-geolocation-service: 608e1da71a1ac31b4de64d9ef2815f697978c55b
-  react-native-get-random-values: 384787fd76976f5aec9465aff6fa9e9129af1e74
-  react-native-image-picker: 5e076db26cd81660cfb6db5bcf517cfa12054d45
+  react-native-get-random-values: 21325b2244dfa6b58878f51f9aa42821e7ba3d06
+  react-native-image-picker: 76bf9cf742bebbaac4ee4c0385be374c034a556c
   react-native-image-resizer: d9fb629a867335bdc13230ac2a58702bb8c8828f
   react-native-location: 5a40ec1cc6abf2f6d94df979f98ec76c3a415681
-  react-native-maps: 31b0a1b766e15293d349ed7b0b133653432e2098
+  react-native-maps: 79610ffcd0ec2ca8e0cefb48aa8ae7c62a75d7cc
   react-native-mmkv-storage: cfb6854594cfdc5f7383a9e464bb025417d1721c
   react-native-render-html: 984dfe2294163d04bf5fe25d7c9f122e60e05ebe
   react-native-safe-area-context: b97eb6f9e3b7f437806c2ce5983f479f8eb5de4b
@@ -817,21 +817,21 @@ SPEC CHECKSUMS:
   React-runtimescheduler: cbd78e16328bde1e5abac4ceb0cb635d03c359c6
   React-utils: b79f2411931f9d3ea5781404dcbb2fa8a837e13a
   ReactCommon: 2635a013764a291989765d6ec136513911f478c6
-  RNBootSplash: 009c55e0258f3e56be9c5f7a578bf2baf140c4bc
-  RNCAsyncStorage: 618d03a5f52fbccb3d7010076bc54712844c18ef
+  RNBootSplash: eff8239c4f795ce42a0604873aef3733aac0dedd
+  RNCAsyncStorage: 10591b9e0a91eaffee14e69b3721009759235125
   RNCMaskedView: 0e1bc4bfa8365eba5fbbb71e07fbdc0555249489
   RNCPicker: b18aaf30df596e9b1738e7c1f9ee55402a229dca
   RNCPushNotificationIOS: 64218f3c776c03d7408284a819b2abfda1834bc8
   RNDateTimePicker: fc2e4f2795877d45e84d85659bebe627eba5c931
-  RNDeviceInfo: db5c64a060e66e5db3102d041ebe3ef307a85120
+  RNDeviceInfo: 4f9c7cfd6b9db1b05eb919620a001cf35b536423
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
   RNFlashList: 4b4b6b093afc0df60ae08f9cbf6ccd4c836c667a
   RNFS: 4ac0f0ea233904cb798630b3c077808c06931688
   RNGestureHandler: 7909c50383a18f0cb10ce1db7262b9a6da504c03
   RNLaunchNavigator: d855643e1f842f13c6cc65575e0755975667032c
   RNLocalize: 4222a3756cdbe2dc9a5bdf445765a4d2572107cb
-  RNPermissions: b51d650e71ad004d0b817439ce3f30ac1819da13
-  RNReanimated: 9dfe7a19dd7c3e123b23db42e74bf051725f2ea3
+  RNPermissions: 8af07627f21202e10860871b1c8fcf4befaa5dad
+  RNReanimated: 5afba582037b0dae040a5f927dec7fdd18e430c3
   RNScreens: 3c5b9f4a9dcde752466854b6109b79c0e205dad3
   RNShare: 859ff710211285676b0bcedd156c12437ea1d564
   RNSVG: ba3e7232f45e34b7b47e74472386cf4e1a676d0a
